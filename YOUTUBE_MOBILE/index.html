@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device_width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+        rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Mobile</title>
+    <script 
+        src="https://kit.fontawesome.com/e41889c9fd.js" 
+        crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+    <!--Video Player-->
+    <section class="player">
+        <video controls src="video/video.mp4"></video>
+    </section>
+    <section class="info">
+        <!-- Medadata -->
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#Nature</li>
+                <li>#Ocean</li>
+                <li>#Blue</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title">
+                    Ocean: 시원한 바다
+                </span>
+                <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            <div class="views">
+                <span class="views">1M views 1 month ago</span>
+            </div>
+        </div>
+        <!-- Actions -->
+        <div class="actions">
+            <li><button>
+                <i class="fas fa-thumbs-up"></i>
+            </button></li>
+            <li><button>
+                <i class="fas fa-thumbs-down"></i>
+            </button></li>
+            <li><button>
+                <i class="fas fa-share"></i>
+            </button></li>
+            <li><button>
+                <i class="fas fa-plus"></i>
+            </button></li>
+            <li>
+                <button><i class=fas fa-font-awesome-flag"></i></button>
+            </li>
+        </div>
+        <!-- Channel Description -->
+        <div class="channel">
+            <div class="metadata">
+                <img src="image/avatar.png" alt="">
+                <div class="info">
+                    <span class="name">JIHYE</span>
+                    <span class="subscribers">100M subscribers</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+    <section class="UpNext">
+        <span class="title">Up Next</span>
+        <ul>
+            <li class="item">
+                <img src="image/1.jpg" alt="">
+                <div class="info">
+                    <span class="title">VLOG | WHAT TO DO WHEN STAYING AT HOME</span>
+                    <span class="name">JIHYE</span>
+                    <span class="views">10K views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <img src="image/2.jpg" alt="">
+                <div class="info">
+                    <span class="title">VLOG | WHAT I EAT IN A DAY!</span>
+                    <span class="name">JIHYE</span>
+                    <span class="views">1M views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <img src="image/3.jpg" alt="">
+                <div class="info">
+                    <span class="title">Finals Week VLOG</span>
+                    <span class="name">JIHYE</span>
+                    <span class="views">15K views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
