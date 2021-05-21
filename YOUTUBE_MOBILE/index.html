@@ -14,8 +14,10 @@
         src="https://kit.fontawesome.com/e41889c9fd.js" 
         crossorigin="anonymous">
     </script>
+    <script src="main.js" defer></script>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="logo">
             <i class="fab fa-youtube"></i>
@@ -30,87 +32,89 @@
     <section class="player">
         <video controls src="video/video.mp4"></video>
     </section>
-    <section class="info">
-        <!-- Medadata -->
-        <div class="metadata">
-            <ul class="hashtags">
-                <li>#Nature</li>
-                <li>#Ocean</li>
-                <li>#Blue</li>
-            </ul>
-            <div class="titleAndButton">
-                <span class="title">
-                    Ocean: 시원한 바다
-                </span>
-                <button class="moreBtn">
-                    <i class="fas fa-caret-down"></i>
-                </button>
-            </div>
-            <div class="views">
+    <div class="infoAndUpNext">
+        <!-- Video Info -->
+        <section class="info">
+            <!-- Medadata -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#Nature</li>
+                    <li>#Ocean</li>
+                    <li>#Blue</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">
+                        🌊시원한 바다 파도, 겨울바다 | 자연 힐링, 휴식, 자연 힐링 영상 | COOL OCEAN WAVES, WINTER OCEAN, NATURAL HEALING 
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
                 <span class="views">1M views 1 month ago</span>
             </div>
-        </div>
-        <!-- Actions -->
-        <div class="actions">
-            <li><button>
-                <i class="fas fa-thumbs-up"></i>
-            </button></li>
-            <li><button>
-                <i class="fas fa-thumbs-down"></i>
-            </button></li>
-            <li><button>
-                <i class="fas fa-share"></i>
-            </button></li>
-            <li><button>
-                <i class="fas fa-plus"></i>
-            </button></li>
-            <li>
-                <button><i class=fas fa-font-awesome-flag"></i></button>
-            </li>
-        </div>
-        <!-- Channel Description -->
-        <div class="channel">
-            <div class="metadata">
-                <img src="image/avatar.png" alt="">
-                <div class="info">
-                    <span class="name">JIHYE</span>
-                    <span class="subscribers">100M subscribers</span>
+            <!-- Actions -->
+            <ul class="actions">
+                <li><button>
+                    <i class="fas fa-thumbs-up"></i>
+                </button></li>
+                <li><button>
+                    <i class="fas fa-thumbs-down"></i>
+                </button></li>
+                <li><button>
+                    <i class="fas fa-share"></i>
+                </button></li>
+                <li><button>
+                    <i class="fas fa-plus"></i>
+                </button></li>
+                <li>
+                    <button><i class="fab fa-font-awesome-flag"></i></button>
+                </li>
+            </ul>
+            <!-- Channel Description -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/avatar.png" alt="">
+                    <div class="info">
+                        <span class="name">JIHYE</span>
+                        <span class="subscribers">100M subscribers</span>
+                    </div>
                 </div>
+                <button class="subscribe">subscribe</button>
             </div>
-            <button class="subscribe">subscribe</button>
-        </div>
-    </section>
-    <section class="UpNext">
-        <span class="title">Up Next</span>
-        <ul>
-            <li class="item">
-                <img src="image/1.jpg" alt="">
-                <div class="info">
-                    <span class="title">VLOG | WHAT TO DO WHEN STAYING AT HOME</span>
-                    <span class="name">JIHYE</span>
-                    <span class="views">10K views</span>
-                </div>
-                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-            </li>
-            <li class="item">
-                <img src="image/2.jpg" alt="">
-                <div class="info">
-                    <span class="title">VLOG | WHAT I EAT IN A DAY!</span>
-                    <span class="name">JIHYE</span>
-                    <span class="views">1M views</span>
-                </div>
-                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-            </li>
-            <li class="item">
-                <img src="image/3.jpg" alt="">
-                <div class="info">
-                    <span class="title">Finals Week VLOG</span>
-                    <span class="name">JIHYE</span>
-                    <span class="views">15K views</span>
-                </div>
-                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-            </li>
-        </ul>
-    </section>
+        </section>
+        <!-- Up Next -->
+        <section class="UpNext">
+            <span class="title">Up Next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="image/1.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">VLOG | WHAT TO DO WHEN STAYING AT HOME</span>
+                        <span class="name">JIHYE</span>
+                        <span class="views">10K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/2.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">VLOG | WHAT I EAT IN A DAY!</span>
+                        <span class="name">JIHYE</span>
+                        <span class="views">1M views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/3.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">Finals Week VLOG</span>
+                        <span class="name">JIHYE</span>
+                        <span class="views">15K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
